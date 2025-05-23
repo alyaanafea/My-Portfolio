@@ -83,7 +83,7 @@ const Header = () => {
             Projects
           </Link>
           <Link
-            href="#contact"
+            href="#contacts"
             className="block hover:bg-black hover:text-white px-4 py-2   transition"
             onClick={() => setMenuOpen(false)}
           >
