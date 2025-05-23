@@ -11,9 +11,9 @@ const Hero = () => {
           <h1
             className="text-4xl md:text-5xl leading-[1.4] font-medium mb-4"
             data-aos="fade-right"
-            data-aos-delay="100"
+            data-aos-delay="50"
           >
-            Hello I’m <span className="font-bold">Aliaa Nafea</span>  Frontend <span className="outline-text">Developer</span>
+            Hello I’m <span className="font-bold">Aliaa Nafea Frontend</span>   <span className="outline-text">Developer</span>
           </h1>
 
           <p
@@ -41,7 +41,7 @@ const Hero = () => {
             <SocialIcon
               href="https://www.linkedin.com/in/alyaa-nafea"
               icon={<FaLinkedin size={20} />}
-              delay="100"
+              delay="50"
             />
             <SocialIcon
               href="https://www.facebook.com/share/1AMPp4nADo/"

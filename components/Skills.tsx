@@ -43,7 +43,7 @@ const Skills = () => {
             <div
               key={index}
               data-aos="zoom-in"
-              data-aos-delay={index * 100}
+              data-aos-delay={index * 50}
               className="flex flex-col items-center justify-center gap-2 text-xl w-36 h-36 border-2 rounded-sm"
             >
               {skill.icon}
