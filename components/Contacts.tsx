@@ -12,7 +12,6 @@ const Contacts = () => {
       >
         Contact Me
       </h2>
-
       <div className="max-w-6xl mx-auto grid  grid-cols-1 md:grid-cols-2 gap-12 items-start">
         <form
           className="space-y-4 order-2 md:order-1"
@@ -74,7 +73,7 @@ const Contacts = () => {
                 delay="0"
               />
               <SocialIcon
-                href="https://www.linkedin.com/in/alyaa-nafea"
+                href="https://wa.me/201201664241"
                 icon={<FaWhatsapp size={20} />}
                 delay="100"
               />
@@ -98,8 +97,8 @@ const Contacts = () => {
           data-aos-delay="200"
         >
           <h2 className="text-3xl font-bold leading-tight">
-            Let’s <span className="underline">talk</span> for <br /> Something
-            special
+            Let’s <span className="outline-text">talk</span> for <br />{" "}
+            Something special
           </h2>
           <p className="text-gray-600">
             I seek to push the limits of creativity to create high-engaging,

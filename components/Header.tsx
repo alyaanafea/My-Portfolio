@@ -10,7 +10,9 @@ const Header = () => {
   return (
     <header className="bg-white fixed max-w-screen w-full z-20">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link className="text-xl font-bold text-black"  href="#about">ALIAA</Link>
+        <Link className="text-xl font-bold text-black" href="#about">
+          ALIAA
+        </Link>
 
         <nav className="space-x-6  hidden md:flex text-black font-medium">
           <Link
@@ -44,7 +46,7 @@ const Header = () => {
           </Link>
         </nav>
         <Link
-          href="https://drive.google.com/file/d/1PydSasqg8MuMARRB_AnLFIqPQaGV7Y0w/view?usp=sharing"
+          href="https://drive.google.com/file/d/1dgfGUB3ETYGIKQB_L9sfTSzYdtosC55L/view?usp=sharing"
           className="hover:bg-white hidden gap-1 hover:text-black hover:border-black transition md:flex border-1 text-white bg-black px-3 py-2 rounded-md font-medium"
         >
           Resume <Download size={20} />
@@ -90,7 +92,7 @@ const Header = () => {
             Contact
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1PydSasqg8MuMARRB_AnLFIqPQaGV7Y0w/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dgfGUB3ETYGIKQB_L9sfTSzYdtosC55L/view?usp=sharing"
             className="flex gap-1 hover:bg-black hover:text-white px-4 py-2   transition"
             onClick={() => setMenuOpen(false)}
           >

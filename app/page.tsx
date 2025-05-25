@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 700,
       once: false,
     });
   }, []);
@@ -21,11 +21,10 @@ export default function Home() {
       <div>
         <Header />
         <Hero />
-
         <Skills />
         <Projects />
         <Contacts />
-        <Footer/>
+        <Footer />
       </div>
     </main>
   );
